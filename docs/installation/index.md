@@ -61,3 +61,5 @@ For OIDC login (overrides password login):
 - Optional: `HOMEPAGE_OIDC_NAME` (display name), `HOMEPAGE_OIDC_SCOPE` (defaults to `openid email profile`)
 
 All app pages and `/api` routes will require a signed-in session. Static assets remain public.
+
+Configure your OIDC provider with the a callback URI like `https://homepage.example.com/api/auth/callback/homepage-oidc`.
